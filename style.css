@@ -1,0 +1,91 @@
+ul {
+    background-color: rgb(185, 132, 235);
+    list-style-position: outside;
+    list-style-type: circle;
+    list-style-image: url("home.png");
+}
+
+li {
+    background-color: lightcyan;
+}
+
+table, tr,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+tr:first-child {
+    background-color: lightblue;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+tr:hover{
+    background-color: lightyellow;
+    height: 60px;
+}
+
+input [type=email] {
+    width: 50%;
+    height: 30px;
+    padding: 5%;
+}
+
+input [type=password] {
+    height: 30%;
+    padding: 5%;
+    width: 150px;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+input [type=password];:focus {
+    background-color: lightpink;
+    width: 50px;
+}
+
+button {
+    padding: 5px;
+    width: 150px;
+    background-color: lightskyblue;
+}
+
+button:hover {
+    padding: 10px;
+}
+
+a link {
+    text-decoration: none;
+    border: 2px solid lightgrey;
+    padding: 10px;
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+a.visited {
+    background-color: lightseagreen;
+}
+
+a.hover {
+    background-color: sandybrown;
+}
+
+a.active {
+    background-color: red;
+}
+
+
